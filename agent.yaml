@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: software-dependency-risk-agent
+version: "1.0.0"
+description: Reviews software dependency inventories for maintenance, security, and supply-chain risk signals and proposes evidence-based follow-up actions.
+author: Agent Builder
+license: MIT
+tags:
+  - software-supply-chain
+  - dependencies
+  - security-review
+skills:
+  - dependency-inventory
+  - risk-analysis
+  - remediation-planning
+tools:
+  - inventory-dependencies
+  - assess-dependency-risk
+  - plan-risk-remediation
+runtime:
+  max_turns: 8
+  temperature: 0.2
+  timeout: 60

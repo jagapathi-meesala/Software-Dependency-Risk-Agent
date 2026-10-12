@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    {"name": "example-lib", "version": "1.2.3", "ecosystem": "pypi", "directness": "direct", "support_status": "unknown", "advisories": []},
+    {"name": "legacy-widget", "version": "^2.0", "ecosystem": "npm", "directness": "transitive", "support_status": "unknown", "advisories": []},
+    {"name": "unknown-version-tool", "ecosystem": "pypi", "advisories": ["GHSA-example-0000-0000"]}
+  ]
+}

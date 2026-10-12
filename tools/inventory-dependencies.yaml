@@ -1,0 +1,19 @@
+name: inventory-dependencies
+description: Normalize supplied dependency records and identify missing or ambiguous inventory fields.
+input_schema:
+  type: object
+  properties:
+    dependencies:
+      type: array
+      items:
+        type: object
+        properties:
+          name: {type: string}
+          version: {type: string}
+          ecosystem: {type: string}
+          directness: {type: string}
+          source: {type: string}
+          support_status: {type: string}
+          advisories: {type: array}
+        required: [name]
+  required: [dependencies]

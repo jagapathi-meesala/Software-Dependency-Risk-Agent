@@ -1,0 +1,11 @@
+name: plan-risk-remediation
+description: Create evidence-linked follow-up tasks for supplied dependency risk findings.
+input_schema:
+  type: object
+  properties:
+    assessment:
+      type: object
+      properties:
+        findings: {type: array}
+      required: [findings]
+  required: [assessment]
